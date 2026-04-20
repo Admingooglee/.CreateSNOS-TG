@@ -1,8 +1,8 @@
 import requests
 import time
 
-RANDOMMER_API_KEY = "тут_твой_API_ключ_от_randommer.io"  # https://randommer.io/signup
-EMAIL_COUNT = 1000
+RANDOMMER_API_KEY = "273507c4e1964312a61b6c70c571b79f"  # https://randommer.io/signup
+EMAIL_COUNT = 200
 
 def fetch_emails(count):
     emails = []
