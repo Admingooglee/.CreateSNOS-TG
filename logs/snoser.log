@@ -1,0 +1,16 @@
+2026-05-29 13:42:39,613 - SNOSER - INFO - ✓ Украинские отправители загружены: 30 адресов
+2026-05-29 13:43:32,429 - SNOSER - INFO - ✓ Украинские отправители загружены: 30 адресов
+2026-05-29 13:44:59,986 - SNOSER - INFO - ✓ Украинские отправители загружены: 30 адресов
+2026-05-29 13:46:52,365 - SNOSER - INFO - ✓ Нормализировано 30 отправителей (украинские домены)
+2026-05-29 13:47:03,425 - SNOSER - ERROR - ✗ Ошибка отправки user0001@meta.ua -> sms@telegram.org: timed out
+2026-05-29 13:47:16,356 - SNOSER - ERROR - ✗ Ошибка отправки user0001@meta.ua -> dmca@telegram.org: timed out
+2026-05-29 13:47:30,814 - SNOSER - ERROR - ✗ Ошибка отправки user0001@meta.ua -> abuse@telegram.org: timed out
+2026-05-29 13:47:42,945 - SNOSER - ERROR - ✗ Ошибка отправки user0001@meta.ua -> support@telegram.org: timed out
+2026-05-29 13:47:56,514 - SNOSER - ERROR - ✗ Ошибка отправки user0002@ukr.net -> sms@telegram.org: timed out
+2026-05-29 13:48:10,138 - SNOSER - ERROR - ✗ Ошибка отправки user0002@ukr.net -> dmca@telegram.org: timed out
+2026-05-29 13:48:24,730 - SNOSER - ERROR - ✗ Ошибка отправки user0002@ukr.net -> abuse@telegram.org: timed out
+2026-05-29 13:48:37,828 - SNOSER - ERROR - ✗ Ошибка отправки user0002@ukr.net -> support@telegram.org: timed out
+2026-05-29 13:48:49,992 - SNOSER - ERROR - ✗ Ошибка отправки user0003@ukr.net -> sms@telegram.org: timed out
+2026-05-29 13:49:03,185 - SNOSER - ERROR - ✗ Ошибка отправки user0003@ukr.net -> dmca@telegram.org: timed out
+2026-05-29 23:42:17,733 - SNOSER - INFO - ✓ Украинские отправители загружены: 30 адресов
+2026-05-29 23:42:24,511 - SNOSER - INFO - ⚠️  Используются стандартные прокси (10)

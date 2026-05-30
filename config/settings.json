@@ -1,0 +1,82 @@
+{
+  "project_name": "SNOSER-TG",
+  "version": "2.0",
+  "logging": {
+    "enabled": true,
+    "log_file": "logs/snoser.log",
+    "log_level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "data_storage": {
+    "senders_file": "data/ukraine_senders_1200.json",
+    "receivers_file": "data/receivers.json",
+    "reports_file": "data/reports.json"
+  },
+  "smtp": {
+    "providers": {
+      "mail.ru": {
+        "server": "smtp.mail.ru",
+        "port": 587
+      },
+      "gmail.com": {
+        "server": "smtp.gmail.com",
+        "port": 587
+      },
+      "rambler.ru": {
+        "server": "smtp.rambler.ru",
+        "port": 587
+      },
+      "ukr.net": {
+        "server": "smtp.ukr.net",
+        "port": 587
+      },
+      "i.ua": {
+        "server": "smtp.i.ua",
+        "port": 587
+      },
+      "meta.ua": {
+        "server": "smtp.meta.ua",
+        "port": 587
+      },
+      "proton.me": {
+        "server": "smtp.proton.me",
+        "port": 587
+      }
+    }
+  },
+  "domains": {
+    "ukraine": [
+      "ukr.net",
+      "i.ua",
+      "meta.ua",
+      "gmail.com.ua",
+      "outlook.ua",
+      "proton.me"
+    ]
+  },
+  "delays": {
+    "between_emails_ms": 500,
+    "between_batches_ms": 3000,
+    "min_random_delay": 0.5,
+    "max_random_delay": 3.0,
+    "batch_pause_min": 5,
+    "batch_pause_max": 15
+  },
+  "features": {
+    "normalize_domains": true,
+    "use_proxies": true,
+    "save_reports": true,
+    "randomize_delays": true,
+    "randomize_user_agent": true,
+    "add_text_variations": true,
+    "enable_logging": true
+  },
+  "anti_ban": {
+    "enabled": true,
+    "ip_rotation_interval": 5,
+    "pause_after_batch": 3,
+    "timeout_seconds": 10,
+    "max_errors_before_pause": 3,
+    "description": "Защита от автоматического бана"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "batch_settings": {
+    "senders_per_batch": 30,
+    "max_senders_to_use": 1000,
+    "receivers_per_sender": 4,
+    "total_emails_per_session": 0,
+    "comment": "Измени senders_per_batch на 350+ для отправки больше за одну сессию"
+  },
+  "timing": {
+    "min_delay_between_emails": 0.5,
+    "max_delay_between_emails": 3.0,
+    "batch_pause_min": 5.0,
+    "batch_pause_max": 15.0,
+    "pause_every_n_senders": 3
+  },
+  "proxy_settings": {
+    "use_custom_proxies": true,
+    "rotate_proxy_every_n_emails": 5,
+    "retry_on_timeout": true,
+    "timeout_seconds": 10
+  },
+  "logging": {
+    "log_successful": true,
+    "log_failed": true,
+    "verbose_mode": false
+  },
+  "email_generation": {
+    "randomize_sender_names": true,
+    "use_ukrainian_domains": true,
+    "add_text_variations": true
+  }
+}
